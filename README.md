@@ -1,3 +1,19 @@
+# Yeager-Renfrow Oral Histories
+
+This repo was constructed from a [cb-oralhistory](https://github.com/Digital-Grinnell/cb-oralhistory) fork of the original https://github.com/CollectionBuilder/cb-oralhistory project COMBINED with elements of [CollectionBuilder base repo](https://github.com/Digital-Grinnell/grinnell-college-base-CB) (with Grinnell College specifics) that was itself derived from a CB experiment housed in https://github.com/Digital-Grinnell/black-library-CB-CSV-experiment.  
+
+The documentation below the [cb-oralhistory](#cb-oralhistory) and [CollectionBuilder-CSV](#collectionbuilder-csv) headings are specifc to the original repos and preserved here for reference only.  
+
+## Yeager-Renfrow Oral Histories Resources
+
+| Link | Description |  
+| ---  | ---         |  
+| https://docs.google.com/spreadsheets/d/1z2W5L8JVdNcqaPdNZyXAThw2wnf7TSUK2Y2giO9i6NM/edit?gid=663101020#gid=663101020 | The project's public metadata spreadsheet. |
+| | `main` branch deployed to Azure Static Web Apps |  
+| https://docs.google.com/spreadsheets/d/1z2W5L8JVdNcqaPdNZyXAThw2wnf7TSUK2Y2giO9i6NM/edit?gid=823757564#gid=823757564 | "From the Documentation" portion of our Google Sheet | 
+| | OneDrive folder |
+
+
 # cb-oralhistory
 
 

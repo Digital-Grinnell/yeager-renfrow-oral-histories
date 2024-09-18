@@ -24,7 +24,7 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but inc
 ##########
 # SUBJECTS PAGE
 #
-subjects-fields: subject # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+subjects-fields: subject; # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
 subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 ## People Pages
@@ -82,14 +82,6 @@ search-child-objects: true # true / false - if true, child objects will appear o
 
 
 ##########
-# Transcripts / Oral History as Data Options 
-# 
-transcript-fields: "description,date,location,interviewer,image" # choose from the following fields --> description,date,location,interviewer,interviewee,bio,image 
-# list the fields you'd like displayed, separated by comma
-media-scroll: true ## true/false --> determines if the media and vizualization will appear to the lower right as a user scrolls down a transcript. This only appears on larger screens (min width 1024px).
-
-
-##########
 # ADVANCED OPTIONS
 #
 
@@ -100,6 +92,7 @@ navbar-color: navbar-dark
 # navbar background color
 # Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
 navbar-background: bg-dark
+
 
 # BOOTSWATCH THEMES [optional!]
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option

@@ -12,29 +12,30 @@ url:
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: 
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/cb-oralhistory
+source-code: https://github.com/Digital-Grinnell/renfrow-hall-dedication-CB
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: cb-oralhistory
+title: The Black Experience at Grinnell College Through Collected Oral History and Documents, 1863–1954
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Prototype for working with Oral History as Data items in CollectionBuilder
+tagline: Hear the Voices Behind the Stories!
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CB-OHD is a mix of CollectionBuilder-CSV and Oral History as Data (OHD)."
+description: By Stuart A. Yeager<br/><br/>Under the Direction of Professor David Jordan, Grinnell College, 1984<br/><br/>In 1981, Stuart Yeager began excavating the history of Black students at Grinnell College. Over three years, the American Studies major and Afro-American Studies concentrator conducted meticulous institutional research to contextualize his real interest — listening to and learning from Black alumni, including the first Black woman graduate, Edith Renfrow Smith, class of 1937. Forty years later, this publication of Yeager’s foundational study of Black presence and belonging at Grinnell College helps mark another important moment in the widening of the College’s institutional history — the opening of the Renfrow Hall student residence in 2024.<br/><br/>-- Tamara Beauboeuf-Lafontant, EdD Louise R. Noun ’29 Chair in Gender, Women’s, and Sexuality Studies, Grinnell College 
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: oral histories;digital collections
+keywords: grinnell;grinnell college;edith renfrow smith;stuart yeager
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: dcnb
+author: Mark McFate
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-ohd-metadata 
+# metadata: demo-metadata
+metadata: yeager_CSV_CollectionBuilder_metadata-for-Export
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -50,10 +51,13 @@ metadata: demo-ohd-metadata
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
-organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
+organization-name: "Grinnell College Libraries"
+organization-link: https://www.grinnell.edu/academics/libraries
+organization-logo-banner: /assets/img/digital-grinnell-logo.png
+organization-logo-nav: /assets/img/Primary_Libraries-Cropped-White-Text.png
+
+organization-logo-banner: https://digital.grinnell.edu/sites/default/themes/digital_grinnell_bootstrap/logo.png
+# organization-logo-nav: https://collectionbuilder.blob.core.windows.net/config/Primary_Libraries.png
 
 ##########
 # GOOGLE SERVICES [optional!]
