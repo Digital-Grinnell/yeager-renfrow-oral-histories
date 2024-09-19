@@ -1,0 +1,87 @@
+##########
+# collectionbuilder-csv
+# Jekyll Digital Collection Generator
+# https://github.com/CollectionBuilder/collectionbuilder-csv
+##########
+
+##########
+# URL VARIABLES
+#
+# site domain, full URL to the production location of your collection
+url: 
+# path to location on the domain if necessary e.g. /digital/hjccc
+baseurl: 
+# location of code, the full url to your github repository
+source-code: https://github.com/Digital-Grinnell/renfrow-hall-dedication-CB
+
+##########
+# SITE SETTINGS
+#
+# title of site appears in banner
+title: The Black Experience at Grinnell College Through Collected Oral History and Documents, 1863–1954
+# tagline, a short phrase that will appear throughout the site in the top banner
+tagline: Hear the Voices Behind the Stories!
+# description appears in meta tags and other locations
+# this description might appear in search result lists, keep around 160 characters max
+description: By Stuart A. Yeager<br/><br/>Under the Direction of Professor David Jordan, Grinnell College, 1984<br/><br/>In 1981, Stuart Yeager began excavating the history of Black students at Grinnell College. Over three years, the American Studies major and Afro-American Studies concentrator conducted meticulous institutional research to contextualize his real interest — listening to and learning from Black alumni, including the first Black woman graduate, Edith Renfrow Smith, class of 1937. Forty years later, this publication of Yeager’s foundational study of Black presence and belonging at Grinnell College helps mark another important moment in the widening of the College’s institutional history — the opening of the Renfrow Hall student residence in 2024.<br/><br/>-- Tamara Beauboeuf-Lafontant, EdD Louise R. Noun ’29 Chair in Gender, Women’s, and Sexuality Studies, Grinnell College 
+# keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
+keywords: grinnell;grinnell college;edith renfrow smith;stuart yeager
+# creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
+author: Mark McFate
+
+##########
+# COLLECTION SETTINGS
+#
+# Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
+# Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
+# metadata: demo-metadata
+metadata: yeager_CSV_CollectionBuilder_metadata-for-Export
+# page generation settings [optional!]
+# [optional: only used if you need to tweak CB defaults or generate from more than one data file]
+# page_gen:
+#   - data: 'demo-metadata'
+#     template: 'item'
+#     name: 'objectid'
+#     dir: 'items'
+#     extension: 'html' 
+#     filter: 'objectid'  
+
+##########
+# Site/Organization Branding 
+#   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
+#   To remove the branding, comment out these values, or delete them. 
+#
+organization-name: "Grinnell College Libraries"
+organization-link: https://www.grinnell.edu/academics/libraries
+organization-logo-banner: /assets/img/digital-grinnell-logo.png
+organization-logo-nav: /assets/img/Primary_Libraries-Cropped-White-Text.png
+
+organization-logo-banner: https://digital.grinnell.edu/sites/default/themes/digital_grinnell_bootstrap/logo.png
+# organization-logo-nav: https://collectionbuilder.blob.core.windows.net/config/Primary_Libraries.png
+
+##########
+# GOOGLE SERVICES [optional!]
+#
+# leave these blank or comment out to NOT include google code
+# if present, used to add analytics during "production" build only
+# google-analytics-id: "G-XXXXXXXXX"
+# google-cse-id: "002151703305773322890:1pu3smhw1t8"
+
+##########
+# ROBOTS EXCLUDE
+#
+# set noindex to true if you do NOT want Google to index your site
+# noindex: true 
+
+##########
+# BUILD SETTINGS 
+#
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+# (this is done automatically by gh-pages build)
+#
+# ignore stuff
+exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md]
+# compress CSS output
+sass:
+  style: compressed
