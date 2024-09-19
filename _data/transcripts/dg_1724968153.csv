@@ -1,9 +1,9 @@
 timestamp,speaker,words,tags,highlight,timelink
 [0:00],David Jordan,"This is February the 25th, 1982, Stuart Yeager conducting an interview with Edith Renfrow Smith.","Edith Renfrow Smith","Edith Renfrow Smith",
-[0:10],Yeager,"I just wanted to ask you -- The very first question is:  Is Anna May Lucas still living?",Anna May Lucas,,
-[0:15],Smith,"Yes, she is.",,,
+[0:10],Stuart Yeager,"I just wanted to ask you -- The very first question is: Is Anna May Lucas still living?",Anna May Lucas,,
+[0:15],Edith Renfrow Smith,"Yes, she is.",,,
 ,Yeager,"Oh, where is she living?",,,
-,Smith,"In Stockton, California.",Stockton; California,,
+,Smith,"In Stockton, California.",stockton; california,,
 ,Jordan,"Do you have her address?",,,
 ,Smith,"I have it -- but she is not competent. And her name is Anna May Boyden now.",Anna May Boyden,,,
 ,Jordan,"How do you spell that?",,,
