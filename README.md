@@ -73,6 +73,10 @@ Following the aforementioned procedure eventually produced the site https://lemo
 This workflow uses GitHub Actions to deploy and you can see the status of deployment at https://github.com/Digital-Grinnell/yeager-renfrow-oral-histories/actions.  
 
 
+## Set Up a Custom Domain in Azure Static Web Apps
+
+Followed the procedure documented in https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain-external AFTER Mike C. setup the necessary CNAME record in the `grinnell.edu` domain in order to link this site to https://yeager-collection.grinnell.edu.  
+
 # cb-oralhistory
 
 **cb-oralhistory** is a mix of [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv) and [Oral History as Data (OHD)](https://github.com/oralhistoryasdata/oralhistoryasdata.github.io). It's meant to serve as a starter repository for those wanting to build oral history collections with CollectionBuilder. 
