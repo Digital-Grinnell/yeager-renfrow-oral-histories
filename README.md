@@ -77,6 +77,23 @@ This workflow uses GitHub Actions to deploy and you can see the status of deploy
 
 Followed the procedure documented in https://learn.microsoft.com/en-us/azure/static-web-apps/custom-domain-external AFTER Mike C. setup the necessary CNAME record in the `grinnell.edu` domain in order to link this site to https://yeager-collection.grinnell.edu.  
 
+# Filters
+
+The presence of a `_data/filters.csv` file causes CB to display the "Topics:" and "Filter by Topic" elements you see below.  
+
+![](documents/images/2024-09-24-09-21-55.png)
+
+Removing that configuration file produces a display without those elements as you see below.
+
+![](documents/images/2024-09-24-09-24-46.png)
+
+# Timeline and Time-Span
+
+The CB documentation talks about [Editing the Home Page](https://collectionbuilder.github.io/cb-docs/docs/pages/home/#editing-the-home-page) including a sub-topic to [Delete a Home Page Feature](https://collectionbuilder.github.io/cb-docs/docs/pages/home/#delete-a-home-page-feature).  
+
+Since our data has no meaningful timeline elements (dates) we've elected to remove it by commenting out the `{% include index/time.html %}` statement in the `_layouts/home-infographic.html` file.
+
+
 # cb-oralhistory
 
 **cb-oralhistory** is a mix of [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv) and [Oral History as Data (OHD)](https://github.com/oralhistoryasdata/oralhistoryasdata.github.io). It's meant to serve as a starter repository for those wanting to build oral history collections with CollectionBuilder. 
