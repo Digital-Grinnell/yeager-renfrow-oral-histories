@@ -93,6 +93,34 @@ The CB documentation talks about [Editing the Home Page](https://collectionbuild
 
 Since our data has no meaningful timeline elements (dates) we've elected to remove it by commenting out the `{% include index/time.html %}` statement in the `_layouts/home-infographic.html` file.
 
+# Suppressing Pages
+
+The original `config-nav.csv` file looked something like this:
+
+```
+display_name,stub,dropdown_parent
+Home,/,
+Browse,/browse.html,
+Visualization,/ohdviz.html
+Subjects,/subjects.html,
+Locations,/locations.html,
+Map,/map.html,
+Timeline,/timeline.html,
+Data,/data.html,
+About,/about.html,
+```
+
+For this project we wanted to suppress the `Visualization`, `Map` and `Timeline` pages so the file was modified to include only this configuration:
+
+```
+display_name,stub,dropdown_parent
+Home,/,
+Browse,/browse.html,
+Subjects,/subjects.html,
+Locations,/locations.html,
+Data,/data.html,
+About,/about.html,
+```
 
 # cb-oralhistory
 
