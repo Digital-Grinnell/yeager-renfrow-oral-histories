@@ -151,6 +151,10 @@ cloud-stopwords: black experience at grinnell college;
 ---
 ```
 
+# footer_description
+
+We wanted to distinguish and differentiate our `site.description` data from the material that appears in the page footer so a new `site.footer_description` field was added to the `_config.yml` data AND a reference to `site.description` was changed to `site.footer_description` in the `_includes/footer.html` template.  
+
 # cb-oralhistory
 
 **cb-oralhistory** is a mix of [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv) and [Oral History as Data (OHD)](https://github.com/oralhistoryasdata/oralhistoryasdata.github.io). It's meant to serve as a starter repository for those wanting to build oral history collections with CollectionBuilder. 
