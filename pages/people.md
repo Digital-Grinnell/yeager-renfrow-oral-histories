@@ -3,6 +3,7 @@ title: People
 layout: cloud
 permalink: /people.html
 cloud-fields: people
+cloud-stopwords: yeager, stuart;
 # Default subject page is configured in "_data/theme.yml"
 # Default subject page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.people-fields"

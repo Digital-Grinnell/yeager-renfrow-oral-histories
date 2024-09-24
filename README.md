@@ -122,6 +122,35 @@ Data,/data.html,
 About,/about.html,
 ```
 
+# People
+
+Our initial "People" cloud tag was dominated by the interviewer, "Stuart Yeager", and I didn't want to remove his name from every interview transcript.  Fortunately Libby directed me to look deeper and I found https://collectionbuilder.github.io/cb-docs/docs/advanced/cloudpage/#create-a-new-cloud-page-using-cloud-layout-and-front-matter in the documentation and introduced the name of our interviewer as a cloud-stopwords frontmatter element in `pages/people.md` and it works nicely!
+
+The new line in the frontmatter is:
+
+```
+cloud-stopwords: yeager, stuart;
+```
+
+# Subjects
+
+Like our "People" page, our initial "Subjects" cloud tag was dominated by a single common phrase but we didn't want to remove it from line of the metadata CSV.  So, as with "People" I used https://collectionbuilder.github.io/cb-docs/docs/advanced/cloudpage/#create-a-new-cloud-page-using-cloud-layout-and-front-matter in the documentation and introduced `cloud-stopwords` frontmatter in `pages/subjects.md` and it works nicely!  To make this work I also had to change the `cloud-fields:` element of the frontmatter.  
+
+The new frontmatter is:
+
+```
+---
+title: Subjects
+layout: cloud
+permalink: /subjects.html
+# Default subject page is configured in "_data/theme.yml"
+cloud-fields: subject
+cloud-stopwords: black experience at grinnell college;
+# Leave cloud-fields as "site.data.theme.subjects-fields", but stopwords did NOT work until cloud-fields was changed?
+#   cloud-fields: site.data.theme.subjects-fields
+---
+```
+
 # cb-oralhistory
 
 **cb-oralhistory** is a mix of [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv) and [Oral History as Data (OHD)](https://github.com/oralhistoryasdata/oralhistoryasdata.github.io). It's meant to serve as a starter repository for those wanting to build oral history collections with CollectionBuilder. 
