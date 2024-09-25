@@ -87,3 +87,9 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 # compress CSS output
 sass:
   style: compressed
+
+###########
+# Additional parameters
+#
+# timezone: added per suggestion found in https://talk.jekyllrb.com/t/timezone-global-configuration-problem/7985
+timezone: America/Chicago

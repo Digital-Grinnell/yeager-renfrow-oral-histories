@@ -11,8 +11,7 @@
       {% unless item.speaker == prev_speaker %}{%if item.speaker %}<span class="fw-bold pe-3 pb-3">{{item.speaker |
         remove: ":"}}: </span>{% endif %}{% endunless %}{{item.words}}
     </p>
-    <div class="col-12 col-md-2 timestamp mb-3 small text-center">{%if item.timestamp%}{% if av %}{% capture avlink
-      %}transcript/timestamp/{{av | downcase }}.html{% endcapture %}<a
+    <div class="col-12 col-md-2 timestamp mb-3 small text-center">{%if item.timestamp%}{% if av %}{% capture avlink %}transcript/timestamp/{{av | downcase }}.html{% endcapture %}<a
         href="{% include {{avlink}} %}">{{item.timestamp}}</a>{% else %}{{item.timestamp}}{% endif %}{% endif %}
     </div>
   </div>
