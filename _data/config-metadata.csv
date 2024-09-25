@@ -10,6 +10,7 @@ latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
 identifier,Source Identifier,,,,
+objectid,Object ID,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 rightsstatement,,,,DCTERMS.rights,license

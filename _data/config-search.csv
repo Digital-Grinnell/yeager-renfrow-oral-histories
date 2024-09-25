@@ -6,3 +6,4 @@ description,true,true
 subject,true,true
 people,true, true
 location,true,false
+objectid,true,true
