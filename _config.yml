@@ -4,6 +4,9 @@
 # https://github.com/CollectionBuilder/collectionbuilder-csv
 ##########
 
+### The documentation suggests...
+# JEKYLL_ENV=production must be set in order to make a production build.
+
 ##########
 # URL VARIABLES
 #
