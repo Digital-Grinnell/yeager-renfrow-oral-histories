@@ -1,7 +1,7 @@
-field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
-identifier,,,true,Identifier
-people,, true
+field,display_name,btn,hidden,sort_name,sort_position
+date,Date,,,,0
+creator,Creator,,,,
+subject,,true,,,
+location,,true,,,
+identifier,,,true,Identifier,2
+people,,true,,,

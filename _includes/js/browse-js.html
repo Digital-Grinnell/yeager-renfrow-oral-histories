@@ -132,7 +132,9 @@ function shuffle(array) {
 /* init browse page */
 
 /* randomize items once at page load */
-shuffle(items);
+//shuffle(items);
+/* sort by date at page load */
+sorting(items,"date");
 
 /* set some elements */ 
 var loadingIcon = document.querySelector("#loadingIcon");
