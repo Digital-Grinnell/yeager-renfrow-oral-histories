@@ -1,5 +1,9 @@
 name: Azure Static Web Apps CI/CD
 
+env: # Add environment variables here
+  JEKYLL_ENV: production
+  TZ: America/Chicago
+
 on:
   push:
     branches:
