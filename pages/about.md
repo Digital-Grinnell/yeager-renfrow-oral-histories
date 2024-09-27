@@ -10,7 +10,7 @@ credits: true
 
 ## About the Collection
 
-This collection and site is a project of the Grinnell College Libraries. If you have questions about these materials or if you would like more information about this collection, please contact [archives@grinnell.edu](mailto:archives@grinnell.edu).
+This collection is a project of the Grinnell College Libraries. If you have questions about these materials or if you would like more information about this collection, please contact [archives@grinnell.edu](mailto:archives@grinnell.edu).
 
 
 ## About the Site
