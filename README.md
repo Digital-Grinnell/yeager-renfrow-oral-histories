@@ -1,5 +1,7 @@
 # Yeager-Renfrow Oral Histories
 
+> This repo was rendered OBSOLETE on 2-Oct-2024 and has been replaced by https://github.com/Digital-Grinnell/yeager-collection! 
+
 This repo was constructed from a [cb-oralhistory](https://github.com/Digital-Grinnell/cb-oralhistory) fork of the original https://github.com/CollectionBuilder/cb-oralhistory project COMBINED with elements of [CollectionBuilder base repo](https://github.com/Digital-Grinnell/grinnell-college-base-CB) (with Grinnell College specifics) that was itself derived from a CB experiment housed in https://github.com/Digital-Grinnell/black-library-CB-CSV-experiment.  
 
 The documentation below the [cb-oralhistory](#cb-oralhistory) and [CollectionBuilder-CSV](#collectionbuilder-csv) headings are specifc to the original repos and preserved here for reference only.  
